@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7422C818-98DA-41DB-88E3-3F033FCB0669}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSLG.CTalk.UI</RootNamespace>
+    <AssemblyName>CSLG.CTalk.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAddFrend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddFrend.Designer.cs">
+      <DependentUpon>FrmAddFrend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddGroup.Designer.cs">
+      <DependentUpon>FrmAddGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddGroupMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddGroupMember.Designer.cs">
+      <DependentUpon>FrmAddGroupMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddMsg.Designer.cs">
+      <DependentUpon>FrmAddMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddUser.Designer.cs">
+      <DependentUpon>FrmAddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDeleteMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDeleteMember.Designer.cs">
+      <DependentUpon>FrmDeleteMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditFriendName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditFriendName.Designer.cs">
+      <DependentUpon>FrmEditFriendName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditInfo.Designer.cs">
+      <DependentUpon>FrmEditInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRMGoupCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMGoupCheck.Designer.cs">
+      <DependentUpon>FRMGoupCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGroupTalk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGroupTalk.Designer.cs">
+      <DependentUpon>FrmGroupTalk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGroupWarn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGroupWarn.Designer.cs">
+      <DependentUpon>FrmGroupWarn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmimmediatelyMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmimmediatelyMsg.Designer.cs">
+      <DependentUpon>FrmimmediatelyMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOkWarn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOkWarn.Designer.cs">
+      <DependentUpon>FrmOkWarn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowMSG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowMSG.Designer.cs">
+      <DependentUpon>FrmShowMSG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTalk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTalk.Designer.cs">
+      <DependentUpon>FrmTalk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RelFriendToFrmTalk.cs" />
+    <Compile Include="SystemWarn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemWarn.Designer.cs">
+      <DependentUpon>SystemWarn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCFriendInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCFriendInfo.Designer.cs">
+      <DependentUpon>UCFriendInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCFriendSearchList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCFriendSearchList.Designer.cs">
+      <DependentUpon>UCFriendSearchList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCGroup.Designer.cs">
+      <DependentUpon>UCGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCGroupList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCGroupList.Designer.cs">
+      <DependentUpon>UCGroupList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCGroupSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCGroupSearch.Designer.cs">
+      <DependentUpon>UCGroupSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCMessageHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCMessageHistory.Designer.cs">
+      <DependentUpon>UCMessageHistory.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmAddFrend.resx">
+      <DependentUpon>FrmAddFrend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddGroup.resx">
+      <DependentUpon>FrmAddGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddGroupMember.resx">
+      <DependentUpon>FrmAddGroupMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddMsg.resx">
+      <DependentUpon>FrmAddMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddUser.resx">
+      <DependentUpon>FrmAddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDeleteMember.resx">
+      <DependentUpon>FrmDeleteMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditFriendName.resx">
+      <DependentUpon>FrmEditFriendName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditInfo.resx">
+      <DependentUpon>FrmEditInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMGoupCheck.resx">
+      <DependentUpon>FRMGoupCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGroupTalk.resx">
+      <DependentUpon>FrmGroupTalk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGroupWarn.resx">
+      <DependentUpon>FrmGroupWarn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmimmediatelyMsg.resx">
+      <DependentUpon>FrmimmediatelyMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOkWarn.resx">
+      <DependentUpon>FrmOkWarn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowMSG.resx">
+      <DependentUpon>FrmShowMSG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTalk.resx">
+      <DependentUpon>FrmTalk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SystemWarn.resx">
+      <DependentUpon>SystemWarn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCFriendInfo.resx">
+      <DependentUpon>UCFriendInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCFriendSearchList.resx">
+      <DependentUpon>UCFriendSearchList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCGroup.resx">
+      <DependentUpon>UCGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCGroupList.resx">
+      <DependentUpon>UCGroupList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCGroupSearch.resx">
+      <DependentUpon>UCGroupSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCMessageHistory.resx">
+      <DependentUpon>UCMessageHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{38D7AA58-C95B-449B-86C6-A8073A56E11F}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
